@@ -1,22 +1,23 @@
 # BabylonTypeScriptJest
+
 expect(BabylonJS + TypeScript + Jest).toWork(); &lt;-- Fail
 
 Simple test case to see how I can get BabylonJS + TypeScript + Jest to work together.
 
 Webpack and maybe Babel if this works.
 
-'''
+```
 npm install --save-dev typescript jest ts-jest @types/jest
 npm install --save-dev @babylonjs/core
 
 tsc --init
 npx ts-jest config:init
-'''
+```
 
 Added usage of a BabylonJS Engine and boom...
 
-'''
-  <rootDir>/BabylonTypeScriptJest/node_modules/@babylonjs/core/Engines/nullEngine.js:1
+```
+    <rootDir>/BabylonTypeScriptJest/node_modules/@babylonjs/core/Engines/nullEngine.js:1
     import * as tslib_1 from "tslib";
            ^
 
@@ -38,4 +39,4 @@ Snapshots:   0 total
 Time:        1.971s
 Ran all test suites.
 npm ERR! Test failed.  See above for more details.
-'''
+```
