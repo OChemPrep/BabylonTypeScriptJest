@@ -1,0 +1,26 @@
+{
+  "name": "BabylonTypeScriptJest",
+  "version": "1.0.0",
+  "description": "expect(BabylonJS + TypeScript + Jest).toWork(); &lt;-- Fail",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OChemPrep/BabylonTypeScriptJest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OChemPrep/BabylonTypeScriptJest/issues"
+  },
+  "homepage": "https://github.com/OChemPrep/BabylonTypeScriptJest#readme",
+  "devDependencies": {
+    "@types/jest": "^25.1.3",
+    "jest": "^25.1.0",
+    "ts-jest": "^25.2.1",
+    "typescript": "^3.7.5"
+  }
+}
